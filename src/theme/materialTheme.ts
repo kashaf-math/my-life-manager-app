@@ -1,0 +1,92 @@
+export interface Material3ColorScheme {
+  primary: string;
+  onPrimary: string;
+  primaryContainer: string;
+  onPrimaryContainer: string;
+  secondary: string;
+  onSecondary: string;
+  secondaryContainer: string;
+  onSecondaryContainer: string;
+  tertiary: string;
+  onTertiary: string;
+  tertiaryContainer: string;
+  onTertiaryContainer: string;
+  error: string;
+  onError: string;
+  errorContainer: string;
+  onErrorContainer: string;
+  background: string;
+  onBackground: string;
+  surface: string;
+  onSurface: string;
+  surfaceVariant: string;
+  onSurfaceVariant: string;
+  outline: string;
+  outlineVariant: string;
+  surfaceContainer: string;
+  surfaceContainerLow: string;
+  surfaceContainerHigh: string;
+  surfaceContainerHighest: string;
+}
+
+export const lightColorScheme: Material3ColorScheme = {
+  primary: '#6750A4',
+  onPrimary: '#FFFFFF',
+  primaryContainer: '#EADDFF',
+  onPrimaryContainer: '#21005D',
+  secondary: '#625B71',
+  onSecondary: '#FFFFFF',
+  secondaryContainer: '#E8DEF8',
+  onSecondaryContainer: '#1D192B',
+  tertiary: '#7D5260',
+  onTertiary: '#FFFFFF',
+  tertiaryContainer: '#FFD8E4',
+  onTertiaryContainer: '#31111D',
+  error: '#BA1A1A',
+  onError: '#FFFFFF',
+  errorContainer: '#FFDAD6',
+  onErrorContainer: '#410002',
+  background: '#FEF7FF',
+  onBackground: '#1D1B20',
+  surface: '#FEF7FF',
+  onSurface: '#1D1B20',
+  surfaceVariant: '#E7E0EC',
+  onSurfaceVariant: '#49454F',
+  outline: '#79747E',
+  outlineVariant: '#CAC4D0',
+  surfaceContainer: '#F3EDF7',
+  surfaceContainerLow: '#F7F2FA',
+  surfaceContainerHigh: '#ECE6F0',
+  surfaceContainerHighest: '#E6E0E9',
+};
+
+export const darkColorScheme: Material3ColorScheme = {
+  primary: '#D0BCFF',
+  onPrimary: '#381E72',
+  primaryContainer: '#4F378B',
+  onPrimaryContainer: '#EADDFF',
+  secondary: '#CCC2DC',
+  onSecondary: '#332D41',
+  secondaryContainer: '#4A4458',
+  onSecondaryContainer: '#E8DEF8',
+  tertiary: '#EFB8C8',
+  onTertiary: '#492532',
+  tertiaryContainer: '#633B48',
+  onTertiaryContainer: '#FFD8E4',
+  error: '#FFB4AB',
+  onError: '#690005',
+  errorContainer: '#93000A',
+  onErrorContainer: '#FFDAD6',
+  background: '#141218',
+  onBackground: '#E6E0E9',
+  surface: '#141218',
+  onSurface: '#E6E0E9',
+  surfaceVariant: '#49454F',
+  onSurfaceVariant: '#CAC4D0',
+  outline: '#938F99',
+  outlineVariant: '#49454F',
+  surfaceContainer: '#211F26',
+  surfaceContainerLow: '#1D1B20',
+  surfaceContainerHigh: '#2B2930',
+  surfaceContainerHighest: '#36343B',
+};
